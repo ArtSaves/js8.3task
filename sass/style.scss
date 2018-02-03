@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	color: #808080;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	margin: 0 auto;
+	height: 100px;
+	background: #bbbec1;
+	.title-song h1 {
+		margin: 0;
+		text-align: center;
+		line-height: 100px;
+		font-family: 'Quicksand', sans-serif;
+		letter-spacing: 12px;
+	}
+}
+
+
+section .lyrics p {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 2px;
+	line-height: 20px;
+}
+
+footer {
+	height: 40px;
+	width: 100%;
+	background: #bbbec1;
+	h5 {
+		line-height: 40px;
+		margin: 0;
+	}
+}
+
+.style {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+
